@@ -21,7 +21,7 @@ The links point at this checkout, so `git pull` here updates every project at on
 | `task-start` | start a task, mark it blocked, or hand it in with evidence |
 | `task-review` | accept or reject a handed-in task against its acceptance criteria |
 | `task-status` | rebuild the board, mirror to Notion, and get a progress digest |
-| `task-publish` | publish one epic as one GitHub issue plus one Notion task, linked both ways; tracker-only, no code |
+| `task-publish` | publish one epic as one short GitHub issue plus one Notion task, linked both ways; tracker-only, no code |
 
 `task-publish` is tracker-only: it does not create `docs/tasks/` and never edits the
 project. Use it when the user wants the epic on GitHub and in Notion, not a task file.
